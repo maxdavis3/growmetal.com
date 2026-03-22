@@ -1,0 +1,183 @@
+baseURL = "https://growmetal.com/"
+languageCode = "en-us"
+title = "Grow Metal"
+theme = "printwire"
+
+[params]
+tagline       = "Advanced metal AM techniques — directed energy deposition, cold spray, and electrochemical deposition for metal growth and repair."
+description   = "Grow Metal covers advanced metal additive techniques beyond powder bed fusion — DED, cold spray, electroforming, and hybrid subtractive-additive manufacturing for large and complex metal parts."
+keywords      = "directed energy deposition, metal DED, cold spray AM, electroforming, wire arc additive manufacturing, WAAM, metal repair AM"
+logoEmoji     = "⚗️"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#94a3b8"
+colorPrimaryDark  = "#7a8fa5"
+colorPrimaryLight = "#b8c7d9"
+colorBgDark       = "#06070d"
+colorBgSection    = "#09090f"
+colorBgCard       = "#0e0f18"
+colorBgCardHover  = "#121320"
+
+fontPrimary   = "Orbitron"
+fontSecondary = "Space+Grotesk"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"]
+
+heroEyebrow  = "Advanced Metal AM"
+heroTitle    = "Grow <em>Metal</em>"
+heroSubtitle = "Advanced metal AM techniques — directed energy deposition, cold spray, and electrochemical deposition for metal growth and repair."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+overviewTitle   = "Beyond Powder Bed Fusion"
+overviewText    = "Directed energy deposition (DED), wire arc AM (WAAM), and cold spray open up large-format metal printing, in-situ repair, and multi-material gradient structures."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "Grow Metal Services"
+servicesSubtitle = "Advanced metal AM techniques — directed energy deposition, cold spray, and electrochemical deposition for metal growth and repair."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Advanced metal AM techniques — directed energy deposition, cold spray, and electrochemical deposition for metal growth and repair."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 10
+suffix = "m"
+label  = "Max DED Part Size"
+
+[[params.stats]]
+count  = 10
+suffix = "x"
+label  = "Faster Deposition vs LPBF"
+
+[[params.stats]]
+count  = 5
+suffix = "B+"
+label  = "DED Market by 2030"
+
+[[params.stats]]
+count  = 98
+suffix = "%"
+label  = "Material Efficiency (DED)"
+
+
+[[params.applications]]
+title       = "Large Metal Components"
+description = "DED and WAAM for large structural parts beyond LPBF build volume — up to 5m+ in titanium and steel."
+image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+[[params.applications]]
+title       = "Repair & Refurbishment"
+description = "In-situ repair of turbine blades, dies, and worn components using directed energy deposition."
+image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+[[params.applications]]
+title       = "Multi-Material Parts"
+description = "Gradient alloy structures and bimetallic components — titanium-to-steel, Inconel-to-copper."
+image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+[[params.applications]]
+title       = "Tooling Restoration"
+description = "Cold spray and DED restoration of forging dies, injection moulds, and stamping tooling."
+image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "⚗️"
+title       = "Wire Arc AM (WAAM)"
+description = "Large-format aluminium, titanium, and steel parts by wire arc — kg/hr deposition, post-machined to tolerance."
+
+[[params.servicesPreview]]
+icon        = "◎"
+title       = "Directed Energy Deposition"
+description = "Laser and electron beam DED in titanium, Inconel, and steel for medium and large structural components."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Cold Spray Repair"
+description = "Kinetic cold spray for dimensional restoration of worn dies, tooling, and aerospace components."
+
+[[params.servicesPreview]]
+icon        = "🔩"
+title       = "Hybrid Machining"
+description = "Combined DED and CNC machining in one setup — final-dimension parts without secondary operations."
+
+
+[[params.services]]
+name        = "Wire Arc AM (WAAM)"
+description        = "Large-format aluminium, titanium, and steel parts by wire arc — kg/hr deposition, post-machined to tolerance."
+icon        = "⚗️"
+image        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=800&q=80"
+
+[[params.services]]
+name        = "Directed Energy Deposition"
+description        = "Laser and electron beam DED in titanium, Inconel, and steel for medium and large structural components."
+icon        = "◎"
+image        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=800&q=80"
+
+[[params.services]]
+name        = "Cold Spray Repair"
+description        = "Kinetic cold spray for dimensional restoration of worn dies, tooling, and aerospace components."
+icon        = "🔬"
+image        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=800&q=80"
+
+[[params.services]]
+name        = "Hybrid Machining"
+description        = "Combined DED and CNC machining in one setup — final-dimension parts without secondary operations."
+icon        = "🔩"
+image        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "metalpowder.co"
+url         = "https://metalpowder.co"
+description = "Metal powder flagship"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprinttitanium.com"
+url         = "https://3dprinttitanium.com"
+description = "Titanium 3D printing"
+
+[[params.clusterLinks]]
+name        = "steel3dprint.com"
+url         = "https://steel3dprint.com"
+description = "Steel 3D printing"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
