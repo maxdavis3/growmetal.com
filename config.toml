@@ -22,7 +22,7 @@ colorBgCardHover  = "#121320"
 fontPrimary   = "Orbitron"
 fontSecondary = "Space+Grotesk"
 
-newsFallbackImages = ["https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"]
+newsFallbackImages = ["/images/fallback1.png", "/images/fallback2.png", "/images/fallback3.png"]
 
 heroEyebrow  = "Advanced Metal AM"
 heroTitle    = "Grow <em>Metal</em>"
@@ -31,7 +31,7 @@ heroCta1Text = "Explore Services"
 heroCta1URL  = "/services/"
 heroCta2Text = "Get a Quote"
 heroCta2URL  = "/contact/"
-heroImage    = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+heroImage    = "/images/hero.png"
 
 overviewTitle   = "Beyond Powder Bed Fusion"
 overviewText    = "Directed energy deposition (DED), wire arc AM (WAAM), and cold spray open up large-format metal printing, in-situ repair, and multi-material gradient structures."
@@ -73,22 +73,22 @@ label  = "Material Efficiency (DED)"
 [[params.applications]]
 title       = "Large Metal Components"
 description = "DED and WAAM for large structural parts beyond LPBF build volume — up to 5m+ in titanium and steel."
-image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+image       = "/images/app-aerospace.png"
 
 [[params.applications]]
 title       = "Repair & Refurbishment"
 description = "In-situ repair of turbine blades, dies, and worn components using directed energy deposition."
-image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+image       = "/images/app-medical.png"
 
 [[params.applications]]
 title       = "Multi-Material Parts"
 description = "Gradient alloy structures and bimetallic components — titanium-to-steel, Inconel-to-copper."
-image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+image       = "/images/app-industrial.png"
 
 [[params.applications]]
 title       = "Tooling Restoration"
 description = "Cold spray and DED restoration of forging dies, injection moulds, and stamping tooling."
-image       = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1920&q=80"
+image       = "/images/app-energy.png"
 
 
 [[params.servicesPreview]]
